@@ -1,0 +1,95 @@
+:root {
+  --primary: hsla(198, 44%, 11%, 0.6);
+  --secondary: hsla(201, 66%, 29%, 0.6);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+  place-content: center;
+  place-items: center;
+  background-image: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url(img/Bcg.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+/* ------------------------------ */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0%;
+  padding-top: 10px;
+}
+a,
+header {
+  text-decoration: none;
+  color: #edc126;
+}
+/* ---------- NAVBAR ------------ */
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 35px;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: #ffff00;
+  transition: all 0.4s ease 0s;
+}
+
+button {
+  color: #ffff;
+  font-weight: 900;
+  font-size: 15px;
+  background-color: #eb4d4b;
+  padding: 8px 30px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ff1919;
+  transition: all 0.4s ease 0s;
+}
+/* ------------------------------ */
+
+/* ------------------------------ */
+.main-content {
+  line-height: 0.3%;
+  font-size: 90px;
+  text-align: center;
+  font-weight: bolder;
+  color: #edc126;
+}
+/* ------------------------------ */
+h3 {
+  line-height: 1;
+  font-size: 100px;
+}
+/* ---------- HERO ------------ */
+#menu-main {
+  text-rendering: auto;
+  text-align: center;
+  color: #ffff;
+  background-color: #eb4d4b;
+
+  border: none;
+  margin-top: 50px;
+  width: 20%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+#main-menu:hover {
+  background-color: #c1401e;
+}
+/* ------FOOTER LOGO-------- */
+.footer-arrow {
+  float: right;
+  display: block;
+  padding: 80px;
+  padding-top: 50px;
+}
